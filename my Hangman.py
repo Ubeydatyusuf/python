@@ -15,7 +15,7 @@ def main():
 main()
 
 # set the secret word
-word = "ubeydat"
+word = "codelagos"
 guesses = ""
 
     # set the number of turns a player can play
@@ -40,7 +40,6 @@ while turns >0:
             #if char in guesses:
                 #print out the character
                 print (char,)
-            char (length==1)
         else:
                     #if not found, print a dash
                 print("_"),
@@ -53,7 +52,7 @@ while turns >0:
         break
     print
         #ask the user to guess a character
-    guess = input("Guess a character in the secret word:")
+    guess = input("Guess a character (a alphabet) in the secret word:")
         #set the players guess to guesses
     guesses += guess
     if guess in word:
